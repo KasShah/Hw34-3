@@ -97,6 +97,6 @@ class Vilian(AirHero):
         print(f'damage ** 2: {self.damage ** 2}')
 
 
-vilian = ('Azai', 'Lord_of_Fire', 'Lightning', 10, "I'm the Phoenix King", 8)
+vilian = Vilian('Azai', 'Lord_of_Fire', 'Lightning', 10, "I'm the Phoenix King", 8)
 
-Vilian.crit(EarthHero)
+print(vilian.crit())
